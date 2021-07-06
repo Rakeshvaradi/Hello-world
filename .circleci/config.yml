@@ -12,4 +12,4 @@ workflows:
    jobs:
      - image-scanner/scan-image:
          image_name: nginx
-         auth_token: etacies_testing
+         auth_token: MY_ENV_VAR
